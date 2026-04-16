@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vercel/vercel/main/packages/cli/schema/vercel-schema.json",
+  "builds": [
+    { "src": "**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
